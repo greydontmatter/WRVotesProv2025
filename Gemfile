@@ -9,3 +9,5 @@ gem "jekyll-github-metadata"
 gem "minitest"
 gem "html-proofer"
 gem 'github-pages', group: :jekyll_plugins
+
+gem "webrick", "~> 1.8"
