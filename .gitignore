@@ -5,3 +5,5 @@ docs/.sass-cache
 docs/Gemfile
 docs/Gemfile.lock
 venv
+.~lock*
+.jekyll-metadata
