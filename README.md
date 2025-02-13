@@ -46,6 +46,29 @@ To get started locally:
    ```
 7. You should now be able to follow the URL which is displayed and you should see the site. (N.B.: Some elements which are dependent upon the Github API may not be displayed locally.)
 
+### Getting started on Windows
+
+1. Install ruby (version 3.1)[ruby (version 3.1.6-1)](https://rubyinstaller.org/downloads/):
+   Make sure to install development kit at last step of installation
+2. Install bundler:
+   ```
+   gem install bundler
+   ```
+3. Clone the repo:
+   ```
+   git clone https://github.com/CivicTechWR/WRVotesProv2025.git
+   ```
+4. Then go into the WRVotesFed2025 directory, and run install the gems:
+   ```
+   cd WRVotesProv2025
+   bundle install
+   ```
+5. Then start the jekyll server:
+   ```
+   cd docs
+   bundle exec jekyll server
+   ```
+6. You should now be able to follow the URL which is displayed and you should see the site. (N.B.: Some elements which are dependent upon the Github API may not be displayed locally.)
 
 ## How can I help?
 See the [Issues list](https://github.com/CivicTechWR/WRVotesProv2025/issues).
